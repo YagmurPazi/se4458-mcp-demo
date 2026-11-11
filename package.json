@@ -1,0 +1,24 @@
+{
+  "name": "se4458-mcp-demo",
+  "version": "1.0.0",
+  "description": "SE 4458 demo: two MCP servers protected with OAuth-style access tokens (audience + scopes)",
+  "scripts": {
+    "start": "node start.js",
+    "demo": "node demo.js"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.4.0",
+    "@modelcontextprotocol/express": "^2.0.2",
+    "@modelcontextprotocol/node": "^2.1.2",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "express": "^5.3.0",
+    "jose": "^6.2.15",
+    "zod": "^4.6.7"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}

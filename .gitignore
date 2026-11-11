@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+.vscode/
+# speaker notes for the talk, not part of the code
+konusma-metni.md
+# my practice guide for the demo
+demo-rehberi.md
